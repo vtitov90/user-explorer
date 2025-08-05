@@ -72,3 +72,11 @@ src/
 - Reset filters functionality
 - Responsive design for mobile and desktop
 - URL parameter persistence for bookmarkable states
+
+## Limitations and Known Issues
+
+### Limitations
+
+1. **Fixed Nationality Options**: Limited to 5 predefined nationalities (US, GB, FR, AU, DE) as per requirements
+2. **No Data Caching**: Each page change or filter update triggers a new API request
+3. **API Dependency**: Application requires active internet connection and relies on Random User API availability
